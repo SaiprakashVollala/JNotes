@@ -18,3 +18,8 @@ function signUpUser(name:string,email:string,isPaid:boolean){
     console.log(isPaid);
 }
 signUpUser("Krishna","krishna@123",true)
+
+
+let loginUser = (name:string,email:string,isPaid:boolean=false) => {}
+
+loginUser("H","h@h")
