@@ -23,3 +23,49 @@ signUpUser("Krishna","krishna@123",true)
 let loginUser = (name:string,email:string,isPaid:boolean=false) => {}
 
 loginUser("H","h@h")
+
+
+
+function addTwo(num:number):number{
+    return "h";
+}
+// function getValue(v:number):boolean{
+//     if(v>5){
+//         return true
+//     }
+//     return "200-Ok"
+// }
+
+const getHello = (s:string):string => {
+    return ""
+}
+
+// const heros = ["thor","spiderman","ironman"]
+// const heros=[1,2,3]
+// heros.map( hero =>{
+//     return `hero is ${hero}`;
+// }
+// )
+
+// heros.map((hero):string)=>{
+//     return `hero is ${hero}`
+// })
+
+
+function consoleError(errmsg: string): void{
+    console.log(errmsg);
+}
+
+function handleError(errmsg: string): void{
+    console.log(errmsg);
+}
+
+function handleError(errmsg: string): never{// never close to void
+    throw new Error(errmsg);
+}
+
+
+
+
+
+
