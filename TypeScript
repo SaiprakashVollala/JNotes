@@ -130,3 +130,45 @@ console.log(Heroes_id);
 console.log(superHeroes);
 // console.log(superHeroes)
 
+---------------------------
+
+// type User={
+//     name:string,
+//     isActive:boolean
+// }
+
+// let user:User[]=[]
+// user.push({name:"Krishna",isActive:true});
+// user.push({name:"Ram",isActive:false});
+// console.log(user);
+
+// let twoD:number[][]=[
+//     [1,2,3],
+//     [4,5,6]
+//     ]
+
+// // twoD.push([1,2,3]);
+// // twoD.push([4,5,6]);
+// console.log(twoD)
+
+let x: string | number = 34
+console.log(x)
+x="hdjs"
+console.log(x)
+
+type User = {
+    uname:string,
+    uid:number
+}
+type Admin = {
+    name:string,
+    id:number
+}
+
+let person: User | Admin={
+    name:"Krishna",
+    id:345
+}
+console.log(person);
+person = {uname:"Ram",uid:234}
+console.log(person);
