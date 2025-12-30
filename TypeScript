@@ -66,6 +66,28 @@ function handleError(errmsg: string): never{// never close to void
 
 
 
+type User={
+    name:string,
+    email:string
+}
+let user:User={
+    name:"Sai",
+    email:"Sai@gmail"
+}
+
+console.log(user.name)
+
+
+type Point = {
+    x:number;
+    y:number;
+}
+
+function Co_Or(pt:Point){
+    console.log("X axis:"+pt.x);
+    console.log("Y axis:"+pt.y);
+}
+Co_Or({x:1,y:3});
 
 
 
