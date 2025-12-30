@@ -199,7 +199,50 @@ seatAllotment = "aisle";
 --------------------------------------------------
 
 
+// tuples
+/*
+let tUser:[string,number,boolean]=["hc",131,true]
+console.log(tUser)
 
+let rgb:[number,number,number] = [255,123,112]
+
+console.log(rgb)
+
+type User = [number,string]
+
+const newUser:User = [1,"krsna"]
+//newUser[0]="k" //-> error
+newUser[0]=1;
+newUser[1]="Ram"
+console.log(newUser)
+
+
+*/
+
+// enum seatChoice {
+//     AISLE,
+//     MIDDLE
+// }
+
+interface User{
+    readonly dbId:number
+    email:String,
+    uid:number,
+    googleId?: string,
+    startTrail:() => string
+    // startTrail():string
+    getCoupon(couponname:string):number
+}
+
+const krishna:User = {dbId:22,email:"k@K.com",uid: 2211,startTrail: () => {
+    return "trail started"
+},
+    getCoupon:(name: "esh10") => {
+    return 10
+}
+}
+krishna.email = "k@kc.com"
+// krishna.dbId=35// -> error
 
 
 
