@@ -172,3 +172,37 @@ let person: User | Admin={
 console.log(person);
 person = {uname:"Ram",uid:234}
 console.log(person);
+-----------
+function getDBInfo(id:number | string){
+    if(typeof id === "string"){
+        id=id.toLowerCase();
+    }
+    else{
+        id+=2;
+    }
+    console.log(id);
+}
+getDBInfo("KKKK");
+
+
+//Arrays
+
+let array:string[]|number[]=[1,2,3]//either all array elements string or either all array elements number
+
+let array2:string[]|number[]=["1","2"]//either all array elements string or either all array elements number
+let array3:(string|number)[] = ["1",2,"3"]// we can have mixed string or number 
+// or you can use any instead of (string|number)
+
+let seatAllotment : "aisle" | "middle" | "window"
+seatAllotment = "aisle";
+// seatAllotment = "crew" -> gives error
+--------------------------------------------------
+
+
+
+
+
+
+
+
+
