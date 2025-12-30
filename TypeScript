@@ -90,4 +90,43 @@ function Co_Or(pt:Point){
 Co_Or({x:1,y:3});
 
 
+// type Car={
+//     name:string,
+//     model:number
+// }
+
+// type Bus={
+//     name:string,
+//     model:number
+// }
+
+// type Four_wheeler=Car&Bus&{
+//     name_1:string;
+// }
+
+// function cars_(cars:Car){
+//     console.log(cars.name);
+//     console.log(cars.model);
+// }
+
+// function buses_(buses:Bus){
+//     console.log(buses.name);
+//     console.log(buses.model);
+// }
+// function Four_wheeler(){
+    
+// }
+// cars_({name:"Santro",model:2013});
+// buses_({name:"Abhi",model:2015});
+
+const superHeroes: string[] = []
+const Heroes_id:number[]=[]
+superHeroes.push("spiderman");
+superHeroes.push("superman");
+
+Heroes_id.push(1);
+Heroes_id.push(2);
+console.log(Heroes_id);
+console.log(superHeroes);
+// console.log(superHeroes)
 
