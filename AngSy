@@ -1,0 +1,192 @@
+🟢 LEVEL 1: ANGULAR CORE BASICS
+
+This makes Angular clear.
+
+What is Angular
+
+SPA concept
+
+Angular project structure
+
+main.ts flow
+
+index.html
+
+Components anatomy
+
+@Component
+
+selector, template, styles
+
+🎯 Output:
+
+You understand how Angular starts and renders UI
+
+🟡 LEVEL 2: TEMPLATES & DATA BINDING
+
+This is daily usage.
+
+Interpolation {{ }}
+
+Property binding [ ]
+
+Event binding ( )
+
+Two-way binding [(ngModel)]
+
+Template expressions
+
+🟠 LEVEL 3: DIRECTIVES & PIPES
+
+Very important for UI.
+
+Directives:
+
+*ngIf
+
+*ngFor
+
+ngClass
+
+ngStyle
+
+Custom directives
+
+Pipes:
+
+Built-in pipes
+
+Custom pipes
+
+🔵 LEVEL 4: COMPONENT COMMUNICATION
+
+Mandatory for real apps.
+
+Parent → Child (@Input)
+
+Child → Parent (@Output, EventEmitter)
+
+ViewChild
+
+ContentChild
+
+🟣 LEVEL 5: FORMS (COMPANY LEVEL)
+Template-driven forms:
+
+ngForm
+
+validation
+
+Reactive forms (VERY IMPORTANT):
+
+FormGroup
+
+FormControl
+
+FormBuilder
+
+Validators
+
+Dynamic forms
+
+🔴 LEVEL 6: SERVICES & DEPENDENCY INJECTION
+
+This is architecture.
+
+What is service
+
+Dependency Injection (DI)
+
+Singleton services
+
+Sharing data between components
+
+🟤 LEVEL 7: HTTP & API INTEGRATION
+
+Real-world Angular.
+
+HttpClient
+
+GET, POST, PUT, DELETE
+
+Headers & params
+
+Error handling
+
+Loading states
+
+⚫ LEVEL 8: RxJS (MOST FEARED, MOST IMPORTANT)
+
+Must know for company projects.
+
+Observable
+
+subscribe
+
+pipe
+
+map
+
+filter
+
+switchMap
+
+catchError
+
+takeUntil
+
+🟠 LEVEL 9: ROUTING & NAVIGATION
+
+SPA power.
+
+RouterModule
+
+Routes
+
+router-outlet
+
+Route parameters
+
+Query params
+
+Lazy loading
+
+Route guards
+
+🔵 LEVEL 10: ADVANCED ANGULAR
+
+Senior-level topics.
+
+Interceptors
+
+Guards
+
+Change detection
+
+Lifecycle hooks
+
+Performance optimization
+
+Signals (new Angular)
+
+Standalone components
+
+🟣 LEVEL 11: TESTING & BUILD
+
+Production readiness.
+
+Unit testing
+
+ng build
+
+Environment configs
+
+Deployment basics
+
+🏗️ LEVEL 12: REAL PROJECTS (MASTER LEVEL)
+
+You must build:
+1️⃣ CRUD App
+2️⃣ Auth + Role based app
+3️⃣ Dashboard with APIs
+4️⃣ Lazy loaded modules app
